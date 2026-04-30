@@ -1,9 +1,9 @@
 ﻿using Mirror;
 
-namespace Net.Messages
+namespace Network.Messages
 {
     public struct HelloMessage : NetworkMessage
     {
-        public string Message { get; set; }
+        public string Message;
     }
 }
